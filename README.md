@@ -3,7 +3,9 @@
 Gator is a command-line RSS feed aggregator written in Go. It fetches posts from RSS feeds, stores them in a PostgreSQL database, and allows users to interact with feeds, follow blogs, and browse posts—all from the terminal.
 
 ---
-##📡 About
+
+## ✨ About
+
 This project was built to learn how to build real-world command-line apps in Go using:
 
 PostgreSQL
@@ -82,7 +84,7 @@ goose -dir ./sql/schema postgres "your-db-url" up
 
 ---
 
-## 🧪 Common Commands
+## 💻 Common Commands
 ```bash
 gator register alice            # Create and login as user "alice"
 gator login bob                 # Switch to another user
