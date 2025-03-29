@@ -27,6 +27,13 @@ To run Gator, make sure you have:
 - **PostgreSQL** (15+ recommended)  
   [Install PostgreSQL](https://www.postgresql.org/download/)
 
+- **Goose** (for database migrations)  
+  Install Goose globally:
+
+```bash
+  go install github.com/pressly/goose/v3/cmd/goose@latest
+```
+
 ---
 
 ## 🛠 Installation
