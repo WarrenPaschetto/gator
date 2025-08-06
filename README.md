@@ -109,9 +109,6 @@ go install .
 ---
 
 ## 🧼 Notes
-go run . is great for development
-
-gator (the compiled binary) is what you'd run in production or share with others
 
 To reset the DB during dev: gator reset
 
